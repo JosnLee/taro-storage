@@ -1,0 +1,24 @@
+{
+  "name": "taro-storage",
+  "version": "1.0.3",
+  "description": "基于Taro的前端本地存储扩展，扩展了存储时间",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "Taro",
+    "storage"
+  ],
+  "author": "jerry",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "transform-runtime": "^0.0.0"
+  }
+}
