@@ -1,6 +1,6 @@
 {
   "name": "taro-storage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "基于Taro的前端本地存储扩展，扩展了存储时间",
   "main": "lib/index.js",
   "scripts": {
