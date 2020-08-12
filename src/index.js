@@ -44,7 +44,7 @@ const storage = {
             return null
         }
     },
-    //本地永久存储写入有效期，有效期内会取出来，失效后会清空
+    //本地永久存储写入有效期，有效期内会取出来，失效后会清空。exp 是有效时间的毫秒数
     setLocalStorage(key, value, exp) {
         let tmpData = {data: value, exp, startTime: new Date().getTime()}
         if (ENV_TYPE === 'h5') {
