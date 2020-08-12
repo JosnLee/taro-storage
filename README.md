@@ -18,7 +18,7 @@ storage.setSessionStorage(key, value)
 ### 移除会话内的单个存储
 storage.removeSessionStorage(key)
 
-###本地永久存储,写入有效期，有效期内会取出来，失效后会清空
+###本地永久存储,写入有效期，有效期内会取出来，失效后会清空 exp 是有效时间的毫秒数
 storage.setLocalStorage(key, value, exp)
 
 ###本地取出存储的值
